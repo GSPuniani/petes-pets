@@ -5,7 +5,10 @@ if (!process.env.PORT) {
 
 const express = require('express');
 const path = require('path');
+// favicon is a logo that identifies a site
 const favicon = require('serve-favicon');
+// morgan is named after Dexter Morgan from the show Dexter (no joke)
+// morgan is an HTTP request logger
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
