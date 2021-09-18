@@ -1,26 +1,17 @@
 # Pete's Pet Emporium!
 
-This is the starter project of the Pete's Pet tutorial.
+This is a Node.js project based on [Pete's Pet tutorial](https://makeschool.org/mediabook/oa/tutorials/pete-s-pet-emporium---advanced-web-recipes/getting-started-V4Q=/). This project represents a digital pet shop with the following features:
 
-## Tasks
+* Simple Search & Pagination
 
-### Simple Search & Pagination
-Add a search bar in the navbar to search pets. Paginate the results.
+* Validations for Database Input
 
-### Validations
-Add validations to protect against unsanitary data getting into your db.
+* Image Uploads
 
-### Upload Images
-Upload pictures of pets from new and edit forms
+* Payment Gateway with Stripe
 
-### Payment Gateways
-Buy pets using Stripe.
+* Sending Emails with Mailgun
 
-### Send Emails
-Send an email when a pet is purchased.
+* Full Text Search
 
-### Full Text Search
-Fuzzy and full-text search on multiple criteria
-
-### Responding to JSON
-Make your project into a full API
+* Responding to JSON for Full API
