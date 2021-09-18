@@ -10,7 +10,7 @@ const auth = {
     api_key: process.env.MAILGUN_API_KEY,
     domain: process.env.EMAIL_DOMAIN
   }
-}
+};
 
 // create a mailer
 const nodemailerMailgun = nodemailer.createTransport(mg(auth));
@@ -33,7 +33,7 @@ module.exports.sendMail = (user, req, res) => {
         res.redirect(`/pets/${req.params.id}`);
     // Catch error and redirect to the purchased pet's page
     }).catch(err => {
-        console.log('Error: ' + err);
+        console.log('Error mailer.js: ' + err);
         res.redirect(`/pets/${req.params.id}`);
     });
 }
